@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de Contacto </title>
+
+    <!-- Enlance al archivo de estilos de CSS -->
+    <link rel="stylesheet" href="./styles/styles.css"> 
+
+    <!-- Google Fonts / Yeseva One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome / Para los íconos de las redes sociales en el footer -->
+    <script src="https://kit.fontawesome.com/9558700994.js" crossorigin="anonymous"></script> 
+
+    <!-- Es el ícono de la pestaña del Browser -->
+    <link rel="icon" href="./img/zafer-icon.jpg" type="image/x-icon">     
+</head>
+
+<body>
+    
+    <!-- Header -->
+    
+    <header class="text-gradient">
+        <nav>
+            <ul>
+              <li><a href="index.html"> Inicio </a></li>
+              <li><a href="productos.html"> Productos </a></li>
+              <li><a href="quienessomos.html"> Quienes Somos </a></li>
+              <li><a href="formcontact.html"> Contactenos </a></li>
+              <li><a href="login.html"> Login </a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main>             
+        
+        <h2 id="h2_contact"> Formulario de Contacto </h2>
+        <section id="section_contact">
+        
+            <fieldset id="fieldset_contact">
+                <form action="formcontact.html" method="get" class="form_contact">      <!-- Por el momento el action no tiene efecto, ya que aun no hicimos validaciones con Javascript-->
+                    
+                    <label id="label_contact" for="labelname"> Motivo: </label>
+                    
+                    <select name="optmotiv" id="optionmotiv_contact">                    
+                        <option value="Sugerencia">Sugerencias</option>
+                        <option value="Reclamos">Reclamos</option>
+                        <option value="Marketing">Marketing/Publicidad</option>
+                        <option value="Medios">Prensa/Streaming</option>                                        
+                    </select>
+            
+                    <label id="label_contact" for="labelname"> Nombre: </label>
+            
+                    <input type="text" name="inputname" size="40" minlength="5" maxlength="40" placeholder="Ingrese su nombre..." required>
+            
+                    <label id="label_contact" for="labelmail"> E-Mail: </label>
+            
+                    <input type="email" id="mail" name="inputmail" size="40" placeholder="Ingrese su Correo Electrónico..." required>
+                
+                    <label id="label_contact" for="labelphone"> Teléfono (opcional): </label>
+            
+                    <input type="tel" name="inputphone" size="40" placeholder="ingrese su numero de telefono...">
+                
+                    <label id="label_contact" for="message"> Mensaje: </label>
+            
+                    <textarea name="comentarios" rows="10" cols="40" placeholder="ingrese su mensaje..." required></textarea>                
+                
+                    <section>
+                        <button type="submit" class="buttons_contact"> Enviar </button>
+                        <button type="reset" class="buttons_contact"> Borrar </button>                
+                   </section>
+            
+                </form>            
+
+            </fieldset>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="text-gradient">
+        <h4> Nuestras Redes Sociales </h4>  
+        <nav>                  
+            <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@zaferaccesorios.ok?_t=8bV0w8LfYnO&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/zafer.accesorios/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </nav>      
+    </footer>
+    
+</body>
+</html>

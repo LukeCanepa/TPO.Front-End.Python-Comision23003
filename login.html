@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inicio de Sesión </title>
+    
+    <!-- Enlance al archivo de estilos de CSS -->
+    <link rel="stylesheet" href="./styles/styles.css"> 
+
+    <!-- Google Fonts / Yeseva One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome / Icons -->
+    <script src="https://kit.fontawesome.com/9558700994.js" crossorigin="anonymous"></script> 
+
+    <!-- Es el ícono de la pestaña del Browser -->
+    <link rel="icon" href="./img/Zafer-Icon.jpg" type="image/x-icon">        
+</head>
+
+<body>
+    
+    <!-- Header -->
+    
+    <header class="text-gradient">
+        <nav>
+            <ul>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="productos.html"> Productos </a></li>
+                <li><a href="quienessomos.html"> Quienes Somos </a></li>
+                <li><a href="formcontact.html"> Contactenos </a></li>
+                <li><a href="login.html"> Login </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main_login">
+        <h1 id="h1_login"> Inicio de Sesión </h1>
+        <section class="section_login">            
+            <form class="form_login">
+                <label class="label_login" for="username"> Usuario </label>
+                <input class="input_login" type="text" placeholder="usuario" id="username" name="username">
+                <label class="label_login" for="password"> Contraseña </label>
+                <input class="input_login" type="password" id="password" placeholder="password" name="password">
+                <section>
+                    <button class="button_login" type="submit"> Enviar </button>                             
+                </section>  
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="text-gradient">    
+        <h4> Nuestras Redes Sociales </h4>
+        <nav>                  
+            <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@zaferaccesorios.ok?_t=8bV0w8LfYnO&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/zafer.accesorios/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </nav>      
+    </footer>   
+    
+    <script src="./js/login.js"></script> 
+</body>
+</html>

@@ -1,0 +1,297 @@
+*{                                      /* Selector Universal */
+    border: 20;    
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+}
+
+header{
+    margin-top: auto;    
+    background-color:rgba(250, 248, 215, 0.7) ;
+    position:sticky;                    /* Para que quede fijo el header*/      
+    display:flex;
+    height:auto;
+    justify-content: space-evenly;      /* Para centrar los items del nav del header*/
+    padding: 1rem;
+}
+
+header ul{    
+    list-style: none;    
+    flex-wrap: wrap;
+    gap: 1rem .1rem;    
+}
+
+header a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color:black;
+}
+
+header a:hover{
+    color:gold;
+    font-weight: bold;
+}
+
+header a:active{
+    color: cyan;
+}
+
+nav ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    float: left;
+    padding: 2px 5px;
+    border: 1px solid black;
+    background-color: rgba(250, 248, 215, 0.7) ;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/f8/ca/51/f8ca51b806dda2e53e04bb65be696adf.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center center;
+    margin:0px;                           /*Para quitar los espacios de relleno en el header*/            
+}
+
+.form_contact{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.form_contact input {
+    width: 100%;
+    height: 20px;
+    margin: 0.5rem;    
+    align-items: center;
+}
+
+.form_contact button {
+    border: none;   
+}
+
+#optionmotiv_contact{
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0.5rem;    
+}
+
+#h2_contact{    
+    font-weight: 200;
+    text-align: center;    
+    color:black;    
+}
+
+#label_contact{    
+    color:white;
+}
+
+#section_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+}
+
+#h_index, #user_index{                
+    color:chocolate;    
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    margin-top: 5rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;    
+}    
+    
+#user_index{
+    color: red;
+}
+    
+#button_index{
+    margin: 1rem;
+    padding: 1rem;    
+    border-radius: 10px;
+    background-color: gray; 
+}
+
+#body_index{
+    background-image: url('../img/aros.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+#app{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}            
+
+#h1_login{
+    text-align: center;
+}
+
+#main_login{
+    margin-top: 3rem;
+    margin-bottom: 12rem;    
+}
+
+.section_login{
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label_login, .input_login, .button_login {
+    display: flex;
+    flex-direction: column;    
+    margin: 1.5rem 1rem 1rem 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;    
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 5px;
+    color:black;
+}
+
+.form_login {
+    display: block;
+    margin-top: 0em;
+}
+
+.button_login{
+    margin-left: 5rem;
+    border-radius: 5px;
+}
+
+#section_whoweare{                               /* Estilos generales del índice de Quines Somos*/
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#h1_whoweare{
+    font-size: 24px;
+    margin-bottom: 10px;    
+}
+
+#p_whoweare{
+    font-size: 18px;
+}
+
+#main_whoweare{
+    margin-top: 3rem;
+    margin-bottom: 12rem;    
+}
+
+#fieldset_contact{
+    margin:auto;    
+    display: inline-block;    
+    text-align:center;    
+    background-image: url(https://laopinion.com/wp-content/uploads/sites/3/2021/07/cadena-de-plata-shutterstock_1824939821.jpg?quality=80&strip=all&w=1200);
+    background-size: contain cover;                  /* Para que la imagen de fondo cubra bien el fieldset*/  
+    background-position: center center;
+}
+
+.buttons_contact{
+    background-color:goldenrod;
+    color:white;
+    margin: 0.5rem;         
+    justify-content: space-evenly;        
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin: 20px 0 5px 0; 
+}
+
+.fa-youtube, .fa-instagram{
+    color:red;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+.fa-tiktok{
+    color:black;
+}
+
+.fa-twitter{
+    color:rgb(0, 174, 255);
+}
+
+.fa-facebook{
+    color:blue;    
+}
+
+.fa-brands:hover{       /* hover --> Cuando se pasa el mouse arriba de los iconos de redes sociales*/
+    color:goldenrod;
+    font-size: 23px;
+}
+
+.text-gradient{
+    background-image: linear-gradient(to left, rgba(250, 248, 215, 0.5),white,rgba(250, 248, 215, 0.5),white,rgba(250, 248, 215, 0.5));
+    background-clip: text;
+    animation: color 8s linear infinite;
+    background-size: 500%;       
+}
+
+textarea {                    
+    resize: none;                   /* Para que no puedan redimensionar la etiqueta de HTML Textarea*/ 
+    margin-bottom: 1.5rem;          /* Deja un espacio entre el textarea y los buttons */ 
+}
+
+footer {
+    background-color:rgba(250, 248, 215, 0.7) ;
+    display:flex;
+    justify-content: space-evenly;    
+    margin: 0%;
+    bottom: 0%;    
+    width: 100%;
+    padding-bottom: 1rem;    
+    padding: 30px;
+    position: fixed;                       /* Para que me rellene bien el footer */ 
+}
+
+footer h4{
+    margin: 20px 10 5px 0;
+}
+
+@media screen and (max-width: 360px){    /* Para que sea responsibe mobile first */
+    main{        
+        margin-top: 0.5rem;
+        margin-bottom: 10rem;
+    }
+}   
+
+@keyframes color {                       /* Para que haga el efecto de degrade de colores de izquierda a derecha */
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}

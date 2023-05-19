@@ -271,8 +271,8 @@ footer {
     margin: 0%;
     bottom: 0%;    
     width: 100%;
-    padding-bottom: 1rem;    
-    padding: 20px;    
+    padding-bottom: 1rem;        
+    padding: 1rem;        
     position: fixed;                       /* Para que me rellene bien el footer */ 
 }
 

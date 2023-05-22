@@ -185,6 +185,44 @@ body{
     border-radius: 5px;
 }
 
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+}
+  
+.product {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+  
+.product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+  
+.product h3 {
+    margin: 0;
+}
+  
+.product p {
+    margin: 10px 0;
+}
+  
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
 #section_whoweare{                               /* Estilos generales del índice de Quines Somos*/
     margin: 0 auto;
     max-width: 800px;

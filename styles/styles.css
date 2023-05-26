@@ -11,7 +11,7 @@ header{
     display:flex;
     height:auto;
     justify-content: space-evenly;      /* Para centrar los items del nav del header*/
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 header ul{    
@@ -310,7 +310,7 @@ footer {
     bottom: 0%;    
     width: 100%;
     padding-bottom: 1rem;        
-    padding: 1rem;        
+    padding: 0.8rem;        
     position: fixed;                       /* Para que me rellene bien el footer */ 
 }
 
